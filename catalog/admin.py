@@ -13,4 +13,3 @@ class TaskAdmin(admin.ModelAdmin):
     list_filter = ("is_done", "deadline")
     search_fields = ("content",)
     filter_horizontal = ("tags",)
-
